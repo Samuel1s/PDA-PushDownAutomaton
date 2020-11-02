@@ -9,6 +9,10 @@ entrega de regras e construção por um arquivo .json.
 • Os autômatos de pilha são uma extensão dos autômatos finitos que adicionam 
 uma memória organizada como pilha. São máquinas reconhecedoras para muitas linguagens que ocorrem na prática, como linguagens de programação.
 
+### 1.3 Para executar o programa:
+No terminal com o compilador python instalado digite dentro do diretório /src
+python3 apd.py 0=1.json, ou, python apd.py 0=1.json se conter suporte.
+
 # 2. Imagens do Teste.
 ![alt text](https://github.com/Samuel1s/APD/blob/main/img/APD-Teste2.png)
 

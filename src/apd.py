@@ -8,6 +8,8 @@
 #* @DATE: 02 de novembro de 2020                                               *
 #*******************************************************************************
 
+# Para executar: python3 apd.py anbn.json
+
 import json
 import sys
 import os
