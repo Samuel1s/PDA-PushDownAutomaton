@@ -77,6 +77,7 @@ try:
 
     while 1:  
         apd.definir(data)
-        
+
 except (KeyboardInterrupt) as e:
     sys.exit(0)    
+    

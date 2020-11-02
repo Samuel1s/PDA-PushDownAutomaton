@@ -10,5 +10,5 @@ entrega de regras e construção por um arquivo .json.
 uma memória organizada como pilha. São máquinas reconhecedoras para muitas linguagens que ocorrem na prática, como linguagens de programação.
 
 # 2. Imagens do Teste.
-![alt text](https://github.com/Samuel1s/APD/blob/main/img/APD-Teste.png)
+![alt text](https://github.com/Samuel1s/APD/blob/main/img/APD-Teste2.png)
 
