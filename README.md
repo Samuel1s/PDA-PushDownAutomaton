@@ -11,8 +11,9 @@ uma memória organizada como pilha. São máquinas reconhecedoras para muitas li
 
 ### 1.3 Para executar o programa:
 No terminal com o compilador python instalado digite dentro do diretório /src
-python3 apd.py 0=1.json, ou, python apd.py 0=1.json se conter suporte.
+python3 apd.py exemplo.json, ou, python apd.py exemplo.json se conter suporte.
 
 # 2. Imagens do Teste.
+A imagem abaixo o json "0=1.json" é na verdade o "exemplo.json" solicitado.
 ![alt text](https://github.com/Samuel1s/APD/blob/main/img/APD-Teste2.png)
 

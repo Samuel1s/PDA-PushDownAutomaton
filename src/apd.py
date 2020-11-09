@@ -8,7 +8,8 @@
 #* @DATE: 02 de novembro de 2020                                               *
 #*******************************************************************************
 
-# Para executar: python3 apd.py anbn.json
+# Para executar: python3 apd.py exemplo.json
+# exemplo.json = Número de 0's iguais o de 1's.
 
 import json
 import sys
@@ -27,7 +28,7 @@ class Validar:
                         pilha.append(letra) 
                     elif ((transicao[4] == '#') and (len(pilha) != 1)):
                         pilha.pop()
-                        break   
+                        break 
                     
             simboloAtualPilha = pilha[len(pilha)-1]
 
@@ -80,6 +81,6 @@ try:
     while 1:  
         apd.definir(data)
 
-except (KeyboardInterrupt) as e:
+except (EOFError, KeyboardInterrupt) as e:  #ctrl + d, ctrl + c.  
     sys.exit(0)    
     
