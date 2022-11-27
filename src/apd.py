@@ -23,9 +23,11 @@ class Validar:
                     estadoAtual = transicao[3]
                     if(len(transicao[4]) == 2):
                         pilha.append(letra)
+                        
                     elif(len(transicao[4]) == 3):
                         pilha.append(letra)
                         pilha.append(letra) 
+
                     elif ((transicao[4] == '#') and (len(pilha) != 1)):
                         pilha.pop()
                         break 
